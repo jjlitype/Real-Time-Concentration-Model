@@ -8,8 +8,8 @@ import re
 import string
 
 # --- Setup Paths and Plotting Style ---
-folder_path = r'D:\GTIIT\paper\K2SO4Ultrasound\PotassiumSulfate\verification\turbidity'
-save_path = r'D:\GTIIT\paper\K2SO4Ultrasound\PotassiumSulfate\verification\turbidity'
+folder_path = r'D:\GTIIT\data\Real-Time-Concentration-Model\K2SO4_EC_and_Ultrasound\PotassiumSulfate\ec_ultrasound_potassiumSulfate\verification\turbidity'
+save_path = r'D:\GTIIT\data\Real-Time-Concentration-Model\K2SO4_EC_and_Ultrasound\PotassiumSulfate\ec_ultrasound_potassiumSulfate\verification\turbidity'
 plt.rcParams['font.family'] = 'Times New Roman'
 plt.rcParams['axes.unicode_minus'] = False
 plt.rcParams['font.size'] = 12
