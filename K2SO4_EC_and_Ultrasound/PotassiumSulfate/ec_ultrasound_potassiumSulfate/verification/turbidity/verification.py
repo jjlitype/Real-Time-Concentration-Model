@@ -83,7 +83,7 @@ if num_dfs > 0:
         # 设置对应速率下的成核温度 threshold_temp
         threshold_temp = None
         if rate == 0.5:
-            threshold_temp = 28
+            threshold_temp = 27
         elif rate == 0.3:
             threshold_temp = 30
         elif rate == 0.1:
