@@ -10,12 +10,12 @@ from scipy.optimize import fsolve
 
 plt.rcParams['font.family'] = 'Times New Roman'
 plt.rcParams['axes.unicode_minus'] = False
-plt.rcParams['font.size'] = 12                   # 全局字体大小
-plt.rcParams['axes.titlesize'] = 12              # 图标题字体大小
-plt.rcParams['axes.labelsize'] = 12              # 轴标签字体大小
-plt.rcParams['xtick.labelsize'] = 12             # x 轴刻度字体大小
-plt.rcParams['ytick.labelsize'] = 12             # y 轴刻度字体大小
-plt.rcParams['legend.fontsize'] = 12             # 图例字体大小
+plt.rcParams['font.size'] = 14                   # 全局字体大小
+plt.rcParams['axes.titlesize'] = 14              # 图标题字体大小
+plt.rcParams['axes.labelsize'] = 14              # 轴标签字体大小
+plt.rcParams['xtick.labelsize'] = 14             # x 轴刻度字体大小
+plt.rcParams['ytick.labelsize'] = 14             # y 轴刻度字体大小
+plt.rcParams['legend.fontsize'] = 14             # 图例字体大小
 c = sns.color_palette("deep")
 
 data01 = pd.read_excel(r'PotassiumSulfate\ec_ultrasound_potassiumSulfate\0.1_0102\0.1_0102.xlsx', names = ['time', 'ec','temperature'],  usecols=[0,1,2])
